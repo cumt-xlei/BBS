@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BaseControl {
 	@RequestMapping("/{root}/{path}")
-	public String retrunPage(@PathVariable String root, @PathVariable String path){
+	public String returnPage(@PathVariable String root, @PathVariable String path){
 		
 		
 		return root + "/" +path;
